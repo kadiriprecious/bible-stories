@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bible Stories Blog</title>
+    <title>Bible Stories Blog - Hidden and Poetic Stories</title>
+    <meta
+      name="description"
+      content="Explore hidden, popular and memorable Bible stories in a poetic and easy-to-understand style."
+    />
+    <meta
+      name="keywords"
+      content="Bible stories, Christian blog, hidden Bible stories, poetic stories, faith, loyalty"
+    />
+    <meta name="author" content="Kadiri Precious" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bible Stories Blog</h1>
+      <p>Poetic reflections on Bible stories</p>
+    </header>
+
+    <!-- Hamburger Icon -->
+    <div id="hamburger">☰</div>
+
+    <!-- Sidebar for all stories -->
+    <div id="postSidebar">
+      <a href="javascript:void(0)" id="closeSidebar">&times;</a>
+      <h2>Stories</h2>
+      <div id="allPostsList"></div>
+    </div>
+
+    <div class="container">
+      <div class="main" id="mainPosts"></div>
+
+      <div class="left">
+        <div class="card">
+          <div class="card-container">
+            <h4>About Blog</h4>
+            <img
+              src="img/question.png"
+              alt="guess the story"
+              class="guessing-img"
+            />
+            <p>
+              We tell Bible stories in a poetic, gentle way—sometimes the big
+              moments everyone knows, sometimes the hidden scenes people often
+              overlook. Each story is crafted like a riddle, inviting you to
+              guess who it is about as the pieces unfold, and then revealing the
+              character at the end. Our goal is to make scripture feel alive,
+              memorable, and easy to understand.
+            </p>
+            <img src="../img/glow.png" alt="about us" />
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-container">
+            <h4>Most Popular</h4>
+            <ul class="popular-posts" id="popularPosts"></ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-container">
+            <h4>Tags</h4>
+            <div class="tags" id="tagsContainer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay for full story -->
+    <div id="storyOverlay">
+      <div class="overlayContent">
+        <span id="closeOverlay">&times;</span>
+        <div id="overlayStory"></div>
+        <div class="overlayNav">
+          <button id="prevStory">Previous</button>
+          <button id="nextStory">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img
+            src="../img/logo.png"
+            alt="Bible Stories Blog"
+            class="footer-logo"
+          />
+        </div>
+
+        <div class="footer-center">
+          <p>
+            We explore hidden and poetic Bible stories, making each story
+            memorable and easy to learn.
+          </p>
+        </div>
+
+        <div class="footer-right">
+          <a href="https://wa.me/09057782627" target="_blank">
+            <img src="../img/whatsapp.png" alt="WhatsApp" class="social-icon" />
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bible Stories Blog. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button
+      id="backToTop"
+      onclick="window.scrollTo({top:0,behavior:'smooth'});"
+    >
+      ↑ Top
+    </button>
+    <script src="stories.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
