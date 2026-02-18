@@ -1,9 +1,9 @@
 const postsData = [
   {
-    title: "The Burning Bush",
+    title: "The Burning Bush ",
     date: "2025-12-13",
     preview:
-      "A man whose life looked ordinary at first — born into slavery, raised in a palace...",
+      "A man whose life looked ordinary at first — born into slavery, raised in a palace...<br>( Exodus )",
     content: `
      <p> Long time ago, there was a man who lived on the surface of the earth. A
       man whose life looked ordinary at first — born into slavery, raised in a
@@ -53,10 +53,10 @@ const postsData = [
     tags: ["Faith", "Moses"],
   },
   {
-    title: "The Three Mighty Men and the Water from the Enemy Camp",
+    title: "The Three Mighty Men and the Water from the Enemy Camp.",
     date: "2025-12-14",
     preview:
-      "Three warriors risked everything to bring their king a cup of water from his hometown...",
+      "Three warriors risked everything to bring their king a cup of water from his hometown...<br>(2 Samuel 23:13-17)",
     content: `
     <p>
         A king sat in the heart of the battlefield, his soul heavy with longing
@@ -112,7 +112,8 @@ const postsData = [
   {
     title: "A Woman Whose Tears Opened The Womb of a Nation.",
     date: "2025-12-15",
-    preview: "A Woman's tears and desperate prayer opened the doorway to a nation's destiny.",
+    preview:
+      "A Woman's tears and desperate prayer opened the doorway to a nation's destiny...<br>(1 Samuel 1:1-28)",
     content: `
     <p>Long before a prophet rose in Israel, before a voice thundered across generations, there was a woman whose pain lived quietly beneath her smile. She shared her home with another woman — one whose womb was full but whose words were arrows. Year after year, she endured ridicule, not because she was forsaken, but because heaven was hiding something divine inside her silence.</p>
 
@@ -142,8 +143,9 @@ const postsData = [
   {
     title: "A Tribe Who Knew Times.",
     date: "2025-12-16",
-    preview: "A tribe whose eyes could see beyound sight,their wisdom understood the seasons of God...",
-    content:`
+    preview:
+      "A tribe whose eyes could see beyound sight,their wisdom understood the seasons of God...<br> (1 Chronicles 12:32)",
+    content: `
     <p>Long before kings ruled and armies clashed across the lands of Israel, there was a people whose eyes saw beyond the ordinary. They were not the loudest in the camp, nor the strongest in battle, yet their strength was unmatched in wisdom. They were the ones who could read the signs hidden in the wind, understand the whispers of heaven, and discern the plans of God before they unfolded.</p>
 
 <p>In a world where most stumbled blindly through seasons of life, they moved with knowledge of what was to come. They knew when the time for harvest had come, when the time for war approached, when the moment to speak or to act was ordained. They read what others could not: the invisible handwriting of destiny, the patterns that only God revealed to a faithful heart.</p>
@@ -162,8 +164,9 @@ const postsData = [
   {
     title: "A Daughter Whose Life Carried a Vow.",
     date: "2025-12-17",
-    preview: "A daughter whose courage and obedience carried the weight of a father's vow, showing devotion to God can be both unseen and costly....",
-    content:`
+    preview:
+      "A daughter whose courage and obedience carried the weight of a father's vow, showing devotion to God can be both unseen and costly... <br>(Judges 11:30-40)",
+    content: `
     <p>There was a time when Israel was torn by conflict, when nations pressed in from every side, and the cries of the people rose to heaven. In those days, a man was chosen — not by birthright, but by circumstance, by the call of God — to lead the nation into battle and deliver them from oppression.</p>
 
 <p>He was a warrior, brave and strong, yet the victory he carried came with a weight he could not see. Before he left to fight, in a moment of desperation, he made a vow — a vow that sought the favor of heaven, spoken hastily in the heat of prayer, yet binding as the very law of God.</p>
@@ -186,5 +189,149 @@ const postsData = [
     img: "../img/princess.png",
     views: 2,
     tags: ["Obedience", "Jephthah"],
+  },
+  {
+    title: "A Prostitue, a Prophet, and a God Who Will Not Let Go.",
+    date: "2025-12-18",
+    preview:
+      "She sold herself. He paid the price. And God turned their story into a message for a nation... <br>( Hosea )",
+    content: `
+    <p>
+Long ago, before exile, before captivity learned the sound of chains, there lived a prophet—a man of God.<br><br>
+
+He knew the law. He knew what was clean. He knew what was forbidden.<br><br>
+
+For priests and holy men were commanded to take wives untouched, women of purity, keepers of covenant.<br><br>
+
+Then God spoke.<br><br>
+
+Not about war. Not about judgment on foreign nations. But about marriage...<br><br>
+
+“Go,” God said, “take for yourself a wife of harlotry, and children of unfaithfulness.”<br><br>
+
+The command was a scandal.<br><br>
+
+This was not symbolic language. This was literal obedience.<br><br>
+
+And the prophet did not argue.<br><br>
+
+He went and took a woman known for wandering love.<br><br>
+
+The city knew her. The streets remembered her. Yet the prophet married her.<br><br>
+
+And heaven watched.<br><br>
+
+Soon she conceived.<br><br>
+
+A child was born, and God named the child Himself.<br><br>
+
+“Call his name Jezreel,” God said—a name soaked in blood, a reminder of violence, a prophecy that a kingdom would soon fall.<br><br>
+
+The people listened. The message was clear.<br><br>
+
+Then the woman conceived again.<br><br>
+
+Another child was born, and God said, “Call her Lo-Ruhamah—Not Pitied, No Mercy.”<br><br>
+
+Because mercy, for a time, would be withheld.<br><br>
+
+Then she bore another child.<br><br>
+
+And God spoke the most frightening name of all: “Call him Lo-Ammi—Not My People.”<br><br>
+
+A covenant fractured. A relationship broken.<br><br>
+
+Three children. Three sermons without words.<br><br>
+
+Then the woman left.<br><br>
+
+She returned to her lovers. She chased provision, pleasure, and security, giving credit to those who did not love her.<br><br>
+
+And God said, “She does not know that it was I who gave her grain, new wine, and oil.”<br><br>
+
+So God removed the gifts.<br><br>
+
+Joy dried up. Harvests failed. Lovers disappeared.<br><br>
+
+And God said calmly, “I will go and return to My place until they acknowledge their guilt and seek My face.”<br><br>
+
+Silence followed.<br><br>
+
+Pain did its work.<br><br>
+
+Then came the awakening.<br><br>
+
+“Come, let us return to the Lord. He has torn us, but He will heal us. He has struck us down, but He will bind us up.”<br><br>
+
+God promised time.<br><br>
+
+“After two days He will revive us. On the third day He will raise us up.”<br><br>
+
+Then came the promise of seasons.<br><br>
+
+“He will come to us like the rain—the former rain and the latter rain.”<br><br>
+
+Beginning mercy. Finishing glory.<br><br>
+
+Meanwhile, the woman fell further, until she was no longer free.<br><br>
+
+She was bought. Owned. Displayed.<br><br>
+
+And God spoke again.<br><br>
+
+“Go,” He said, “love her once more.”<br><br>
+
+Not punish her. Not replace her. Redeem her.<br><br>
+
+The prophet paid the price. Silver weighed carefully. Love proven publicly.<br><br>
+
+He brought her home and allowed time for healing, time for restoration, time for covenant to breathe again.<br><br>
+
+And God reversed the names.<br><br>
+
+Lo-Ammi became My People. Lo-Ruhamah became Beloved.<br><br>
+
+And God declared, “I will heal their backsliding. I will love them freely.”<br><br>
+
+This was not just a marriage. It was a prophecy lived, a sermon walked out, a picture of a God who disciplines, withdraws, waits, and then rains again.<br><br>
+
+And this is the story of the prophet known in Scripture as Hosea.
+</p>`,
+    img: "../img/princess.png",
+    views: 2,
+    tags: ["Obedience", "Hosea", "Prophet"],
+  },
+  {
+    title: "Face to face with God.",
+    date: "2025-12-18",
+    preview: "The only man that saw God face to face... <br>( Moses )",
+    content: `<p>
+(Exodus 33:)
+    </p>`,
+    img: "../img/princess.png",
+    views: 2,
+    tags: ["Moses", "Prophet"],
+  },
+  {
+    title: "The choosen Artisans.",
+    date: "2025-12-18",
+    preview: "The only man that saw God face to face... <br>( Moses )",
+    content: `<p>
+(Exodus 31:)
+    </p>`,
+    img: "../img/princess.png",
+    views: 2,
+    tags: ["Bezalel", "Oholiab"],
+  },
+  {
+    title: "when daughters speak.",
+    date: "2025-12-18",
+    preview: "The only man that saw God face to face... <br>( Moses )",
+    content: `<p>
+(numbers 27:)
+    </p>`,
+    img: "../img/princess.png",
+    views: 2,
+    tags: ["Moses", "Daughters of Zelophehad"],
   },
 ];
